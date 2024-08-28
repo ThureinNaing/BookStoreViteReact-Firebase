@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backdrop {
+	position: fixed;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 90%;
+	height: 70px;
+	background-color: transparent;
+	z-index: 1;
+	margin: 10px;
+	background-color: white;
+}
+.searchInput {
+	width: 450px;
+	background-color: inherit;
+}
+.backdropProfile {
+	position: fixed;
+	top: 70px;
+	min-width: 30%;
+	height: 60vh;
+	background-color: transparent;
+	z-index: 1;
+	margin: 10px;
+
+	border-radius: 5px;
+}
+
+@media (max-width: 717px) {
+	/* .backdropProfile {
+		width: 100%;
+	} */
+}
